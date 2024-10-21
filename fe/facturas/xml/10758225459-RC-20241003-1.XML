@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+          <ext:UBLExtensions>
+              <ext:UBLExtension>
+                  <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>BIdwk/l6ppn6Ho1Lwyeh2cRNpXQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Jy4wspxkILPzb4I5UbpE6j3GHBxU4pZ7NfibslEcUmvZW9GN67n7u/2amry7xJtmKKBSIM1KN+8/kLKFIuBfMGgNpTLjWWrKJ8XAi96pHex8d7mGEfXf4ScKooHbuL850sDHrNP/OzDhXeFqzv91cuz2/TELIww9qosi5W/h3guXQAztfs0yMRQIKjceDmH6IbYm/ZbbDTlpzLM0IucK3v7g3oORaSBxkbTlOZFrcs8Rb2cRH2fcA1wYNkk6860sp+/KxRyWlCheGlIHx7R09s3hD2sBakd6ffB1+fEeQa5dIs2rIt7CEZD0Cv9zmLpMSFtWrgXwIdOgrm6+YkfmjQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+              </ext:UBLExtension>
+          </ext:UBLExtensions>
+          <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+          <cbc:CustomizationID>1.1</cbc:CustomizationID>
+          <cbc:ID>RC-20241003-1</cbc:ID>
+          <cbc:ReferenceDate>2024-10-03</cbc:ReferenceDate>
+          <cbc:IssueDate>2024-10-04</cbc:IssueDate>
+          <cac:Signature>
+              <cbc:ID>RC-20241003-1</cbc:ID>
+              <cac:SignatoryParty>
+                  <cac:PartyIdentification>
+                      <cbc:ID>10758225459</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:PartyName>
+                      <cbc:Name><![CDATA[HERRERA CHURA ANTHONY BARTOLOME]]></cbc:Name>
+                  </cac:PartyName>
+              </cac:SignatoryParty>
+              <cac:DigitalSignatureAttachment>
+                  <cac:ExternalReference>
+                      <cbc:URI>RC-20241003-1</cbc:URI>
+                  </cac:ExternalReference>
+              </cac:DigitalSignatureAttachment>
+          </cac:Signature>
+          <cac:AccountingSupplierParty>
+              <cbc:CustomerAssignedAccountID>10758225459</cbc:CustomerAssignedAccountID>
+              <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+              <cac:Party>
+                  <cac:PartyLegalEntity>
+                      <cbc:RegistrationName><![CDATA[HERRERA CHURA ANTHONY BARTOLOME]]></cbc:RegistrationName>
+                  </cac:PartyLegalEntity>
+              </cac:Party>
+          </cac:AccountingSupplierParty><sac:SummaryDocumentsLine>
+                 <cbc:LineID>1</cbc:LineID>
+                 <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+                 <cbc:ID>B001-1</cbc:ID>
+                 <cac:Status>
+                    <cbc:ConditionCode>1</cbc:ConditionCode>
+                 </cac:Status>                
+                 <sac:TotalAmount currencyID="PEN">35</sac:TotalAmount>
+                       <sac:BillingPayment>
+                       <cbc:PaidAmount currencyID="PEN">29.66</cbc:PaidAmount>
+                           <cbc:InstructionID>01</cbc:InstructionID>
+                       </sac:BillingPayment><cac:TaxTotal>
+                     <cbc:TaxAmount currencyID="PEN">5.34</cbc:TaxAmount><cac:TaxSubtotal>
+                         <cbc:TaxAmount currencyID="PEN">5.34</cbc:TaxAmount>
+                         <cac:TaxCategory>
+                             <cac:TaxScheme>
+                                 <cbc:ID>1000</cbc:ID>
+                                 <cbc:Name>IGV</cbc:Name>
+                                 <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                             </cac:TaxScheme>
+                         </cac:TaxCategory>
+                     </cac:TaxSubtotal></cac:TaxTotal>
+             </sac:SummaryDocumentsLine></SummaryDocuments>
